@@ -1,0 +1,24 @@
+name = WebNau theme
+description = A clean theme for WileyData internal use
+screenshot = images/screenshot_webnau.png
+core = 7.x
+
+stylesheets[all][] = style.css
+
+regions[topmost_nav] 		= top small black navigation bar
+regions[top_title_header] 	= main WileyData logo
+regions[new_posts_section] 	= larger left hand section for new posts, eventually two columns
+regions[front_page_events] 	= thinner right hand column for event listing
+regions[showcase_class] 	= full width section to showcase some important information
+regions[content] 			= content
+regions[footer_class] 		= full width footer along the bottom of the page
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
